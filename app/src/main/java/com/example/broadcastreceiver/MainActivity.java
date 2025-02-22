@@ -7,7 +7,7 @@ import android.os.Bundle;
 import com.example.broadcastreceiver.databinding.ActivityMainBinding;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
     private ActivityMainBinding binding;
     private MyBroadcastReceiver myBroadcastReceiver;
     @Override
